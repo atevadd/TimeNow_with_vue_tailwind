@@ -1,33 +1,29 @@
 // tailwind.config.js
 module.exports = {
-    corePlugins: {
-        preflight: false,
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    screens: {
+      desktop: "1440px",
     },
-    mode: 'jit',
-    purge: [],
-    darkMode: false, // or 'media' or 'class'
-    theme: {
-        screens: {
-            desktop: '1440px',
-        },
-        colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            white: '#ffffff',
-            orange: ' #ff7d1a',
-            'pale-orange': '#ffede0',
-            'very-dark-blue': '#1d2025',
-            'dark-grayish-blue': '#68707d',
-            'grayish-blue': '#b6bcc8',
-            'light-grayish-blue': '#f7f8fd',
-            'black-75': '#000000;',
-        },
-        extend: {
-
-        },
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      white: "#ffffff",
+      black: "#141414",
+      "grey-100": "#6e7c8a",
+      "dark-blue": "#1d1b67",
+      "light-blue": "#46ccde",
+      "accent-blue": "#cdf9ff",
+      "dark-green": "#005661",
+      "grey-200": "#5e6d7c",
+      "dark-blue-200": "#035863",
+      "b-color": "#c3c3c3",
     },
-    variants: {
-        extend: {},
-    },
-    plugins: [],
-}
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};

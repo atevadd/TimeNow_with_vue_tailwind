@@ -1,17 +1,22 @@
 <template>
 <Navbar />
-<main class="main-area h-auto">
-
+<main class="main-area">
+<Hero />
+<Usage />
 </main>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
+import Navbar from '@/components/Navbar.vue'
+import Hero from '@/components/Hero.vue'
+import Usage from '@/components/Usage.vue'
 
 export default {
   name: 'App',
   components: {
     Navbar,
+    Hero,
+    Usage,
   }
 }
 </script>
@@ -19,7 +24,7 @@ export default {
 <style lang="scss">
 
 *{
-  font-family: "Kumbh sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 #app {
   -webkit-font-smoothing: antialiased;
