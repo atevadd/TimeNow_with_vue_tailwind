@@ -1,21 +1,21 @@
 <template>
-  <section class="usage w-9/12 mx-auto p-10flex items-center justify-between">
-    <div class="usage-people">
-      <h2>TimeNow is used by the most influential people.</h2>
-      <div class="usage-users">
-        <img src="@/assets/images/UA1.png" alt="user avatar" />
-        <img src="@/assets/images/UA2.png" alt="user avatar" />
-        <img src="@/assets/images/UA3.png" alt="user avatar" />
-        <img src="@/assets/images/UA4.png" alt="user avatar" />
-        <img src="@/assets/images/UA5.png" alt="user avatar" />
-        <img src="@/assets/images/UA6.png" alt="user avatar" />
-        <img src="@/assets/images/UA7.png" alt="user avatar" />
-        <img src="@/assets/images/UA8.png" alt="user avatar" />
+  <section id="usage" class="w-9/12 mx-auto py-16 flex items-center justify-between">
+    <div class="usage-people w-5/12">
+      <h2 class="text-2xl text-dark-blue font-bold mb-4">TimeNow is used by the most influential people.</h2>
+      <div class="usage-users flex items-center justify-between">
+        <img src="@/assets/images/UA1.png" alt="user avatar" class="w-9 h-9"/>
+        <img src="@/assets/images/UA2.png" alt="user avatar" class="w-9 h-9"/>
+        <img src="@/assets/images/UA3.png" alt="user avatar" class="w-9 h-9"/>
+        <img src="@/assets/images/UA4.png" alt="user avatar" class="w-9 h-9"/>
+        <img src="@/assets/images/UA5.png" alt="user avatar" class="w-9 h-9"/>
+        <img src="@/assets/images/UA6.png" alt="user avatar" class="w-9 h-9"/>
+        <img src="@/assets/images/UA7.png" alt="user avatar" class="w-9 h-9"/>
+        <img src="@/assets/images/UA8.png" alt="user avatar" class="w-9 h-9"/>
       </div>
     </div>
-    <div class="usage-explanation">
-        <p>The most influential people on Facebook, Twitter, and Instagram are using TweetNow to schedule post when their followers are most active.</p>
-        <p>They generally recieve 25% more engagement than people who do not.</p>
+    <div class="usage-explanation w-2/5">
+        <p class="mb-5 text-grey-200 text-sm">The most influential people on Facebook, Twitter, and Instagram are using TweetNow to schedule post when their followers are most active.</p>
+        <p class="text-grey-200 text-sm pr-5">They generally recieve 25% more engagement than people who do not.</p>
     </div>
   </section>
 </template>

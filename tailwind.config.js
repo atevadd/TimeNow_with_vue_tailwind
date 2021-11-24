@@ -17,7 +17,7 @@ module.exports = {
       "accent-blue": "#cdf9ff",
       "dark-green": "#005661",
       "grey-200": "#5e6d7c",
-      "dark-blue-200": "#035863",
+      "dark-blue-200": "#3b60bf",
       "b-color": "#c3c3c3",
     },
     extend: {},
