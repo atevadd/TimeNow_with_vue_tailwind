@@ -3,9 +3,6 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    screens: {
-      desktop: "1440px",
-    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
