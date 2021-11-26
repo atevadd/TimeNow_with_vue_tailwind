@@ -1,30 +1,17 @@
 <template>
   <Navbar />
-  <main class="main-area">
-    <Hero />
-    <Usage />
-    <Feature />
-    <Footer />
-  </main>
+  <router-view/>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar.vue";
-import Hero from "@/components/Hero.vue";
-import Usage from "@/components/Usage.vue";
-import Feature from "@/components/Feature.vue";
-import Footer from "@/components/Footer.vue";
 
 export default {
   name: "App",
-  components: {
+  components:{
     Navbar,
-    Hero,
-    Usage,
-    Feature,
-    Footer,
-  },
-};
+  }
+}
 </script>
 
 <style lang="scss">
