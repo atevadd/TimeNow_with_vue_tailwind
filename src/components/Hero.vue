@@ -5,7 +5,10 @@
       w-full
       sm:w-9/12
       md:w-9/12
-      h-screen
+      h-full
+      sm:h-screen
+      md:h-screen
+      lg:h-screen
       block
       sm:flex
       md:flex

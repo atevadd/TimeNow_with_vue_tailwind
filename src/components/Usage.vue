@@ -15,6 +15,7 @@
       sm:px-0
       md:px-0
       lg:px-0
+      py-10
       block
       sm:flex
       md:flex
@@ -26,7 +27,7 @@
       lg:justify-between
     "
   >
-    <div class="usage-people w-full sm:w-5/12 md:w-5/12 lg:w-5/12">
+    <div class="usage-people w-full sm:w-5/12 md:w-5/12 lg:w-5/12 mb-10 sm:mb-0 md:mb-0">
       <h2 class="text-2xl text-dark-blue font-bold mb-4">
         TimeNow is used by the most influential people.
       </h2>

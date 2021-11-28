@@ -17,6 +17,9 @@ module.exports = {
       "dark-blue-200": "#3b60bf",
       "b-color": "#c3c3c3",
     },
+    fontFamily:{
+      'font-inherit': 'inherit'
+    },
     extend: {},
   },
   variants: {
