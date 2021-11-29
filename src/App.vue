@@ -17,6 +17,7 @@ export default {
 <style lang="scss">
 * {
   font-family: "Inter", sans-serif;
+  word-break: break-word;
 }
 body {
   overflow-x: hidden;

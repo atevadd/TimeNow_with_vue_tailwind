@@ -3,3 +3,8 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.router-link-active{
+    @apply font-bold text-grey-200;
+}

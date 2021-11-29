@@ -4,8 +4,8 @@
             <img src="@/assets/images/Logo.svg" alt="Time now brand logo" class="brand-logo">
         </div>
         <nav class="hidden sm:block md:block sm:mr-auto md:mr-auto ml-5">
-            <a href="#" class="mr-7 text-grey-100 text-base hover:text-dark-blue">Features</a>
-            <a href="#" class="mr-7 text-grey-100 text-base hover:text-dark-blue">Pricing</a>
+            <router-link :to="{name: 'Home'}" class="mr-7 text-grey-100 text-base hover:text-dark-blue">Features</router-link>
+            <router-link :to="{name: 'Pricing'}" class="mr-7 text-grey-100 text-base hover:text-dark-blue">Pricing</router-link>
         </nav>
         <a href="#" class="cta hidden sm:block md:block lg:block px-5 py-4 bg-dark-blue font-bold text-white rounded">Start scheduling</a>
 
