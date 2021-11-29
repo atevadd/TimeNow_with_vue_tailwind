@@ -1,6 +1,6 @@
 // tailwind.config.js
 module.exports = {
-  purge: [],
+  purge: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
@@ -17,8 +17,8 @@ module.exports = {
       "dark-blue-200": "#3b60bf",
       "b-color": "#c3c3c3",
     },
-    fontFamily:{
-      'font-inherit': 'inherit'
+    fontFamily: {
+      "font-inherit": "inherit",
     },
     extend: {},
   },
