@@ -86,9 +86,9 @@
       <Pricingcard :price="4" >
       <template v-slot:feat class="">
         <ul>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> LinkedIn Integration</li>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Twitter Integration</li>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Real-time Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> LinkedIn Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Twitter Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Real-time Integration</li>
           </ul>
       </template>
       </Pricingcard>
@@ -98,18 +98,18 @@
       >
         <template v-slot:feat>
           <ul>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> LinkedIn Integration</li>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Twitter Integration</li>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Instagram Integration</li>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Real-time Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> LinkedIn Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Twitter Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Instagram Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Real-time Integration</li>
           </ul>
         </template>
       </Pricingcard>
       <Pricingcard :price="7">
         <template v-slot:feat>
           <ul>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> LinkedIn Integration</li>
-            <li class="mb-4 text-grey-200"><img src="@/assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Twitter Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> LinkedIn Integration</li>
+            <li class="mb-4 text-grey-200"><img src="../assets/images/Checkmark.svg" alt="Checkmark icon" class="inline-block mr-3"> Twitter Integration</li>
           </ul>
         </template>
       </Pricingcard>
@@ -119,8 +119,8 @@
 </template>
 
 <script>
-import Pricingcard from "@/components/Pricingcard.vue";
-import Footer from "@/components/Footer.vue";
+import Pricingcard from "../components/Pricingcard.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   name: "Pricing",

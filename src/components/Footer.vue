@@ -1,7 +1,7 @@
 <template>
   <footer id="footer" class="w-full sm:w-9/12 md:w-9/12 lg:w-9/12 mx-auto px-4 sm:px-0 md:px-0 py-8 sm:py-16 md:py-16 lg:py-16 relative block">
     <div class="footer-logo mb-6">
-      <img src="@/assets/images/Logo.svg" alt="Time Now logo" />
+      <img src="../assets/images/Logo.svg" alt="Time Now logo" />
     </div>
     <div class="footer-menu w-full flex items-center justify-between flex-wrap">
       <div class="column w-6/12 sm:w-min md:w-max">
