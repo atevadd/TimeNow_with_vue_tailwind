@@ -6,7 +6,10 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta:{
+      title: "Timenow -  a modern social media management software"
+    }
   },
   {
     path: '/pricing',
@@ -14,7 +17,10 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Pricing.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Pricing.vue'),
+    meta:{
+      title: "Timenow - Prcing"
+    }
   }
 ]
 
@@ -23,4 +29,8 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) =>{
+  document.title = to.meta.title;
+  next()
+})
 export default router
